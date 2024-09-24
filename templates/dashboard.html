@@ -1,3 +1,5 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,5 +21,15 @@
 
     <h3>Graph 3: Example Pie Chart</h3>
     <canvas id="pieChart"></canvas>
+
+    <script>
+        // Debugging: Check if Chart.js is loaded
+        console.log('Chart.js version:', Chart.version);
+
+        // Debugging: Check if data is available
+        console.log('Line Chart Data:', lineChartData);
+        console.log('Bar Chart Data:', barChartData);
+        console.log('Pie Chart Data:', pieChartData);
+    </script>
 </body>
 </html>
